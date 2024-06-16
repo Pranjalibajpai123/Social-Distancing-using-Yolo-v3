@@ -12,6 +12,7 @@ VIDEO_PATH = './videos/video.mp4'
 OUTPUT_PATH = './output/output.avi'
 SAFE_DISTANCE = 60
 
+
 LABELS = open(YOLOV3_LABELS_PATH).read().strip().split('\n')
 
 np.random.seed(42)
